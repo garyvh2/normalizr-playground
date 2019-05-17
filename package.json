@@ -1,0 +1,21 @@
+{
+  "name": "normalizr-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon src/index.js",
+    "prod": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "normalizr": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
