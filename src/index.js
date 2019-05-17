@@ -64,5 +64,6 @@ populateEntities(communityNormalized.entities);
 
 
 /** ============ Denormalizing entities - Start ============ */
-console.log(denormalize(11650, builderEntity, store));
+console.log('Store', store);
+console.log('Denormalized', denormalize(11650, builderEntity, store));
 /** ============ Denormalizing entities - end ============ */
